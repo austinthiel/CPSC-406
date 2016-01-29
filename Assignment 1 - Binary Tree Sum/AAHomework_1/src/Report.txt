@@ -1,0 +1,8 @@
+Algorithms Used: N/A
+Run-Time: O(n) 
+
+Run-Time tests:
+
+1. 23ms
+2. 31ms
+3. 34ms

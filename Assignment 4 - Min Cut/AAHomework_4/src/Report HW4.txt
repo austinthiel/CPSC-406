@@ -1,0 +1,30 @@
+Austin Thiel
+ID# 2015843489
+Homework 4
+
+Algorithms Used : Karger's Algorithm (integral of Kruskal's Algorithm)
+
+I watched a couple videos on youtube describing Karger's algorithm and
+felt it was a more elegant implementation to solve this problem. All code
+was written by me alone and uses a 2D arraylist to represent the graph. It
+chooses 2 random nodes to merge, re-organizes the pointers in the arraylist
+to point to the newly merged node, and deletes the old node. This process
+repeats until there are only 2 nodes left, then counts the number of
+pointers in one of the nodes to determine the mincut. Mincut runs 
+numVertices * numEdges times and takes the absolute min to ensure the
+correct mincut is found.
+
+3 Test-Case Report:
+== Each mincut runs (numVertices * numEdges) times ==
+
+	1. 102ms
+	1. 99ms
+	1. 130ms
+
+	2. 148ms
+	2. 171ms
+	2. 147ms
+
+	3. 136ms
+	3. 155ms
+	3. 133ms
