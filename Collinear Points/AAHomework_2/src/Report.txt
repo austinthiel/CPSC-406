@@ -1,8 +1,0 @@
-Algorithms Used : nested for loops
-Runtime: O(n^3)
-
-
-Runtime Samples:
-1. 27ms
-2. 45ms
-3. 42ms
